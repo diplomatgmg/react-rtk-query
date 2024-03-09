@@ -31,6 +31,12 @@
         "maximum": 1,
         "when": "multiline"
       }
+    ],
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      {
+        "checksVoidReturn": false
+      }
     ]
   }
 }
